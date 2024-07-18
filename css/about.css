@@ -1,0 +1,216 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asar&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Play:wght@400;700&display=swap');
+
+
+/* main */
+main{width: 1700px; height: 100vh;}
+
+main section{
+    width: 100%; height: 100vh;
+    background-image: url(../img/aboutimg.png);
+    background-size: cover; background-repeat: no-repeat;
+    display: flex; justify-content: center; align-items: center;
+}
+main section .p_box{
+    width: 1300px; height: 800px;
+    background: rgba(0, 0, 0, .8);
+    display: flex; align-items: center; justify-content: center;
+}
+main section .p_box .pr_con{
+    width: 1100px; height: 560px;
+    display: flex; color: #fff;
+    justify-content: center;
+}
+main section .p_box .pr_img{
+    width: 355px; height: 560px;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: space-around;
+    border-right: 1px solid #fff;
+}
+main section .p_box .pr_img h2{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px; color: #fff;
+}
+main section .p_box .pr_img h2 span{
+    color: #DC5EC0;
+}
+main section .p_box .pr_img .photo{
+    width: 100%; height: 440px;
+    display: flex; flex-direction: column; align-items: center;
+}
+main section .p_box .pr_img .photo ul.nbe{
+    font-size: 20px;
+    padding-top: 35px;
+}
+main section .p_box .pr_img .photo ul.nbe li{
+    font-style: italic; padding: 10px 0 10px 0;
+}
+main section .p_box .pr_img .photo ul.nbe li:first-child{
+    font-style: normal;
+}
+main section .p_box .pr_img .photo ul.nbe li span{
+    font-size: 22px; font-weight: bold;
+}
+main section .p_box h2{
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+main section .p_box h2 span{
+    color: #DC5EC0;
+}
+main section .p_box .box_r{}
+main section .p_box .box_r .experience{
+    width: 750px; height: 280px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+main section .p_box .box_r .experience .ex_box{
+    width: 100%; height: 265px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding-left: 30px;
+}
+main section .p_box .box_r .experience ul.ex{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+main section .p_box .box_r .experience ul.ex li{
+    padding-bottom: 18px; 
+}
+main section .p_box .box_r .experience ul.ex li span{
+    font-weight: bold; padding-right: 45px;
+}
+
+main section .p_box .box_r .box_bottom{
+    width: 750px; height: 280px;
+    display: flex;
+}
+main section .p_box .skill{
+    width: 455px; height: 280px;
+    border-right: 1px solid #fff;
+}
+main section .p_box .skill .sk_box{
+    width: 100%; height: 100%; 
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+main section .p_box .skill .box_skill {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    position: relative;
+    padding-top: 17px;
+}
+
+main section .p_box .skill .box_skill ul {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section .p_box .skill .box_skill ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .p_box .skill .box_skill ul li p{width: 120px;}
+
+.bar_p{
+    width: 250px;
+    height: 10px;
+    /* border: 1px solid #ccc; */
+    background: #fff;
+    position: relative;
+}
+main section .p_box .skill .bar_p::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 90%;
+    height: 100%;
+    background: #DC5EC0;
+    left: 0;
+    top: 0;
+    animation: barAni 2s 1;
+    transform-origin: left;
+}
+
+@keyframes barAni{
+    0%{transform: scaleX(0);}
+    100%{transform: scaleX(1);}
+}
+main section .p_box .skill .box_skill ul li img{margin-right: 10px;}
+main section .p_box .skill .box_skill ul li:nth-child(2) .bar_p::before{
+    width: 80%;
+} 
+main section .p_box .skill .box_skill ul li:nth-child(3) .bar_p::before{
+    width: 70%;
+} 
+main section .p_box .skill .box_skill ul li:nth-child(4) .bar_p::before{
+    width: 60%;
+} 
+main section .p_box .skill .box_skill ul li:nth-child(5) .bar_p::before{
+    width: 50%;
+}
+main section .p_box .skill .box_skill ul li:nth-child(6) .bar_p::before{
+    width: 50%;
+} 
+
+
+main section .p_box .pr{
+    width: 295px; height: 280px;
+}
+main section .p_box .pr .pr_box{
+    width: 100%; height: 100%;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 30px 30px 0 30px;
+}
+main section .p_box .pr .pr_box ul{
+
+}
+main section .p_box .pr .pr_box ul li{
+    padding-bottom: 40px;
+    transition: .3s;
+}
+main section .p_box .pr .pr_box ul li span{
+    padding-left: 60px;
+}
+
+
+/* nav */
+nav{
+    width: 100px; height: 100vh; background: #fff;
+    display: flex; align-items: center;
+}
+nav ul{
+    width: 100%; height: 800px;
+}
+nav ul li{
+    width: 100%; height:25%; background: #ccc;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; color: #666; background-color: palevioletred;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-family: "Archivo Black", sans-serif;
+}
+nav ul li.on{
+    background: #252525;
+    font-size: 23px;
+    color: #DC5EC0;;
+}
+
+nav ul li:nth-child(2){
+    background: #ccc;
+}
+nav ul li:nth-child(3){
+    background: #bbb;
+}
+nav ul li:nth-child(4){
+    background: #aaa;
+}
+nav ul li a {
+    display: block;
+}

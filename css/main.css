@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asar&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+*{box-sizing: border-box;}
+.wrap{
+    width: 100%; height: 100%;
+    display: flex;
+}
+
+/* header */
+header{
+    width: 120px; height: 100vh;
+    background: #252525;
+    display: flex; justify-content: center;
+    border-right: 1px solid #fff;
+}
+header p{
+    font-family: "Asar", serif;
+    font-size: 50px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #fff;
+    padding-top: 100px;
+}
+
+/* main */
+main{
+    width: 1700px; height: 100vh; background: #252525;
+    font-family: "Average", serif;
+    color: #fff;
+    display: flex; justify-content: center; align-items: center;
+    position: relative;
+}
+main .line{
+    width: 100%; height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0; top: 50%; transform: translateY(-50%);
+}
+
+main .tit{
+    width: 1505px; height: 450px;
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+main .tit .top{
+    width: 100%;
+    display: flex; justify-content: space-between; align-items: center;
+}
+main .tit .top .top_l{
+    width: 650px;
+    display: flex; flex-direction: column;
+    align-items: flex-end;
+}
+main .tit .top .top_l .job{
+    width: 650px; height: 80px; line-height: 80px;
+    background: #fff; color: #252525; font-size: 60px;
+    text-align: center;
+}
+main .tit .top .top_l h1{font-size: 100px; font-weight: normal;}
+main .tit .top .photo1{
+    width: 800px; height: 200px;
+    background-image: url(../img/mainphoto_top.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .tit .bottom{
+    width: 100%;
+    display: flex; justify-content: space-between; align-items: flex-end;
+}
+main .tit .bottom .hi{
+    width: 800px; height: 100px; line-height: 100px;
+    background: #333; font-size: 80px;
+    text-align: center;
+}
+main .tit .bottom .hi a{display: block;}
+main .tit .bottom .hi:hover{
+    background: #fff; color: #333;
+}
+main .tit .bottom .photo2{
+    width: 655px; height: 200px;
+   background-image: url(../img/mainphoto_bottom.png);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/* nav */
+nav{
+    width: 100px; height: 100vh; background: #fff;
+    display: flex; align-items: center;
+}
+nav ul{
+    width: 100%; height: 800px;
+}
+nav ul li{
+    width: 100%; height:25%; background: #ccc;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; color: #252525;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-family: "Archivo Black", sans-serif;
+}
+
+nav ul li:nth-child(1){
+    background: #DC5EC0;
+}
+nav ul li:nth-child(2){
+    background: #5EC5FF;
+}
+nav ul li:nth-child(3){
+    background: #88FF50;
+}
+nav ul li:nth-child(4){
+    background: #FFF73D;
+}
+nav ul li a {
+    display: block;
+}

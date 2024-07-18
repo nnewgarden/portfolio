@@ -1,0 +1,163 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asar&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Play:wght@400;700&display=swap');
+
+/* main */
+main{
+  width: 1700px; height: 100vh; background: #252525;
+  display: flex;
+}
+
+main h2{
+  width: 100%; height: 100%;
+  display: flex;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px; color: #fff;
+  padding-top: 120px; padding-left: 100px;
+}
+main h2 span{
+  color: #5EC5FF;
+}
+section{
+  width: 100%; height: 100%;
+  display: flex; justify-content: space-between;
+  align-items: center;
+}
+.box {
+  display: flex; 
+  padding-right: 80px;
+/*     overflow: hidden; */
+}
+
+.project {
+  width: 1250px;
+  height: 600px;
+  background: yellow;
+  display: flex;
+}
+
+.project li {
+  transition: .6s;
+
+}
+.project li:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.project li:hover:nth-child(1) {
+  background-image: url(../img/projectimg1_h.png);
+}
+
+.project li:hover:nth-child(2) {
+  background-image: url(../img/projectimg2_h.png);
+}
+
+.project li:hover:nth-child(3) {
+  background-image: url(../img/projectimg3_h.png);
+}
+
+.project li:hover:nth-child(4) {
+  background-image: url(../img/projectimg4_h.png);
+}
+
+.project li:hover:nth-child(5) {
+  background-image: url(../img/projectimg5_h.png);
+}
+
+
+.project li a {
+  font-family: "DM Serif Display", serif; color: #fff;
+  font-size: 35px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid transparent;
+}
+
+.project li:hover a {
+  /*  transform: scale(1.1); */
+  border: 5px solid #5EC5FF;
+}
+
+.project .p_box1 {
+  width: 250px;
+  height: 600px;
+  background: #ccc;
+  background-image: url(../img/projectimg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project .p_box2 {
+  width: 250px;
+  height: 600px;
+  background: #bbb;
+  background-image: url(../img/projectimg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project .p_box3 {
+  width: 250px;
+  height: 600px;
+  background: #ccc;
+  background-image: url(../img/projectimg3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project .p_box4 {
+  width: 250px;
+  height: 600px;
+  background: #bbb;
+  background-image: url(../img/projectimg4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project .p_box5 {
+  width: 250px;
+  height: 600px;
+  background: #ccc;
+  background-image: url(../img/projectimg5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* nav */
+nav{
+  width: 100px; height: 100vh; background: #fff;
+  display: flex; align-items: center;
+}
+nav ul{
+  width: 100%; height: 800px;
+}
+nav ul li{
+  width: 100%; height:25%; background: #ccc;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; color: #666; background-color: palevioletred;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-family: "Archivo Black", sans-serif;
+}
+nav ul li.on{
+  background: #252525;
+  font-size: 23px;
+  color: #5EC5FF;
+}
+
+nav ul li:nth-child(1){
+  background: #ccc;
+}
+nav ul li:nth-child(3){
+  background: #bbb;
+}
+nav ul li:nth-child(4){
+  background: #aaa;
+}
+nav ul li a {
+}

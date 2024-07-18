@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Freesentation-4Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-4Regular.woff2') format('woff2');
+  font-weight: 00;
+  font-style: normal;
+  letter-spacing: 5%;
+}
+@font-face {
+  font-family: 'DOSGothic';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+  --main-color:#FD85C1;
+  --sub-color1:#FFA6B9;
+  --sub-color2:#FFFCC7;
+  --sub-color3:#76E3C5;
+  --sub-color4:#AED8FF;
+  --sub-color5:#C1A9FF;
+  --container-color:#FFEFF7;
+  --container-size:1400px;
+  --main-font: "Play", sans-serif;
+  --sub-font1: 'DOSGothic';
+  --sub-font2: 'Freesentation-4Regular';
+}

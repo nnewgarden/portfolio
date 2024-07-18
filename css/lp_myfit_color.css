@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Freesentation-4Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-4Regular.woff2') format('woff2');
+  font-weight: 00;
+  font-style: normal;
+  letter-spacing: 5%;
+}
+
+:root{
+  --main-color:#5D755D;
+  --sub-color1:#394839;
+  --sub-color2:#F3EEE2;
+  --sub-color3:#E2E2E2;
+  --container-color:#F6F8F0;
+  --container-size:1400px;
+  --main-font: "Play", sans-serif;
+  --sub-font1: "DM Serif Display", serif;
+  --sub-font2: 'Freesentation-4Regular';
+}
